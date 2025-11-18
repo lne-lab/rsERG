@@ -1,7 +1,7 @@
 # rsERG
 This code allows analysis on rsERG data
 
-# rsERG Analysis Pipeline – Nature Submission
+# rsERG Analysis Pipeline 
 
 This repository contains the Python tools used in the accompanying manuscript to analyze resting-state electroretinography (rsERG) recordings from multichannel corneal arrays.
 
