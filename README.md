@@ -33,7 +33,7 @@ These scripts are designed to run with:
 - Python ≥ 3.9  
 - Jupyter Notebook / JupyterLab
 
-Core packages (non-exhaustive, but required):
+Core packages:
 
 - `numpy`
 - `scipy`
@@ -46,8 +46,35 @@ Core packages (non-exhaustive, but required):
 - `tqdm`
 - `fooof` (for spectral parametrization)
 - `python-pptx` (optional; for PPT export in `psd_channel_means_v1b.py`)
+  
+## 2. Setting up a Python virtual environment and JupyterLab (Bash)
 
-Enable widgets in Jupyter, e.g.:
+The easiest way for reviewers to run the notebooks and modules is to use a local Python virtual environment in the same folder as this repository.
+
+1. **Download / clone this repository**
+
+   ```bash
+   # Option A: clone from git
+   git clone <REPOSITORY_URL>
+   cd <REPOSITORY_FOLDER>
+
+   # Option B: download as ZIP, unzip, then:
+   cd <REPOSITORY_FOLDER>
+   
+## 3. Create and activate a virtual environment
+
+python3 -m venv .venv
+source .venv/bin/activate    # on macOS / Linux / WSL
+
+## 4. Install dependencies (including JupyterLab)
+
+A requirements.txt file is provided:
+
+pip install -r requirements.txt
+
+## 5. Launch JupyterLab
+
+From the same folder (with the virtual environment still activated):
 
 ```bash
-jupyter nbextension enable --py widgetsnbextension
+jupyter lab
