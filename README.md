@@ -64,7 +64,7 @@ The easiest way for reviewers to run the notebooks and modules is to use a local
    
 ## 3. Create and activate a virtual environment
 
-```bash
+
 python3 -m venv .venv
 source .venv/bin/activate    # on macOS / Linux / WSL
 
@@ -72,8 +72,9 @@ source .venv/bin/activate    # on macOS / Linux / WSL
 
 A requirements.txt file is provided:
 
-```bash
+
 pip install -r requirements.txt
+
 
 ## 5. Launch JupyterLab
 
