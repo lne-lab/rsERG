@@ -7,6 +7,7 @@ This repository contains the Python tools used in the accompanying manuscript to
 
 All analysis is run in **Jupyter Notebook / JupyterLab** using interactive GUIs built with `ipywidgets` and `ipyfilechooser`.
 
+
 There are three main pipelines:
 
 1. **Spectral analysis (PSD + FOOOF)**
@@ -20,6 +21,8 @@ There are three main pipelines:
 
 3. **Multimetric single-channel burst analysis**
    - `Cycle_Hilb_Spect_pACF_v9C2Nv2E_env50_piecewise_consistency_autoGUI_artToggle_promPctGuardFinal.py`
+
+All three pipelines can be accessed in the same Jupyter Notebook called Resting_State_ERG_Pipeline, which is accessible within the same repository as the python modules. 
 
 ---
 
