@@ -430,7 +430,7 @@ If Excel writing fails (e.g. missing `openpyxl` or permissions issues), an error
   `Process All Epochs` operates on the **currently selected channel** only. To analyze additional channels, change the channel slider and run again (producing one Excel file per channel).
 
 - **ByCycle-inspired, not a direct reimplementation**  
-  Cycle detection and metrics (amplitude, period, monotonicity, consistency) are conceptually aligned with ByCycle but implemented locally. The thresholds (`AmpFrac`, `AmpCons`, `PerCons`, `Mono`) act directly on these custom metrics. Advanced ByCycle features (e.g. detailed symmetry metrics, full group-level interfaces) are not implemented here.
+  Cycle detection and metrics (amplitude, period, monotonicity, consistency) are conceptually aligned with ByCycle but implemented locally. The thresholds (`AmpFrac`, `AmpCons`, `PerCons`, `Mono`) act directly on these custom metrics. 
 
 - **Band-dependent thresholds**  
   In the manuscript’s narrow 2–4 … 32–34 Hz scans, `PerCons` and `AmpCons` are explicitly tuned per band to reflect expected regularity and to suppress 1/f-driven pseudo-regularity. If you analyze different bands or data types, you should re-optimize these thresholds based on the single-epoch plots.
