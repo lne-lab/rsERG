@@ -1,7 +1,7 @@
 # RSEGViewer Tutorial  
 `Cycle_Hilb_Spect_pACF_v9C2Nv2E_env50_piecewise_consistency_autoGUI_artToggle_promPctGuardFinal.py`
 
-This tutorial explains how to use the **RSEGViewer** GUI to inspect and quantify narrow-band oscillatory “hum” bursts in single-channel rsERG data stored as MNE `.fif` epochs.
+This tutorial explains how to use the **RSEGViewer** GUI to inspect and quantify narrow-band oscillatory bursts in single-channel rsERG data stored as MNE `.fif` epochs.
 
 RSEGViewer is implemented in:
 
