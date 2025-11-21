@@ -226,4 +226,3 @@ Only channels that were **plotted** (and thus had kept indices computed) are inc
   - Saving the cleaned `.pkl` with a suffix (e.g. `_v1`, `_v2`),
   - Keeping a note of the parameter choices used in your notebook.
 
-You can add this file to your repository as `psd_clean_tutorial.md` and link it from your main `README.md`.
