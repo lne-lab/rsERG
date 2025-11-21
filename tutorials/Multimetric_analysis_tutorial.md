@@ -94,7 +94,7 @@ The workbook contains three sheets:
    - Counts and percentages of burst vs fail segments
 
 3. **`agreement`** – One row per epoch, summarizing agreement between envelope vs pACF segmentation:
-   - `Jaccard`, `Precision`, `Recall`, `F1`, `SegMed` (median segment length), etc.
+   - `Jaccard`, `Precision`, `Recall`, `F1`, `SegMed` (median segment length), etc. These metrics are for QC purposes and do not contribute to analysis.
 
 ---
 
