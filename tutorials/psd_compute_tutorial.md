@@ -210,4 +210,3 @@ From here you can:
 - The current implementation restricts output to **0–100 Hz**. Use axis controls to zoom into narrower bands.
 - Channels with invalid PSDs are kept in `psd_results` but marked with `None` and hidden from plotting.
 
-This file can be added to your repository as `psd_compute_tutorial.md` and linked from your main `README.md`.
