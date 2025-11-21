@@ -315,4 +315,3 @@ You can then filter/sort these results in Excel or import them into Python/R for
 - Axis limits are not auto-scaled by the script beyond what Matplotlib normally does; if plots look odd, try relaxing or adjusting `Y Axis Min/Max`.
 - If you change FOOOF parameters or export options, simply click **“Process and Analyze”** again to rerun and regenerate all figures and tables.
 
-You can add this file to your repository as `excel_to_fooof_tutorial.md` and link it from your main `README.md`.
