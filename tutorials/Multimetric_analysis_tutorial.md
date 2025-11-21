@@ -31,7 +31,7 @@ RSEGViewer provides an interactive Jupyter GUI that lets you:
 - Visualize all of this in a multi-panel figure for a single epoch.
 - Batch process **all kept epochs for one channel** and export an **Excel file** summarizing segment-level and epoch-level metrics.
 
-Use RSEGViewer when you want to cross-validate burst detection heuristics for rsERG “hum” activity and export a reproducible summary of burst vs non-burst segments across epochs.
+Use RSEGViewer when you want to cross-validate burst detection heuristics for rsERG activity and export a reproducible summary of burst vs non-burst segments across epochs.
 
 ---
 
