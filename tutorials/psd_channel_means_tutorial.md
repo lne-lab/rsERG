@@ -227,4 +227,3 @@ The GUI will save either the final data, the figure, or both, depending on the c
 - You must re-run **Plot PSDs** and **Plot Final Group Means** after changing thresholds or channel selections before exporting.
 - Export will politely fail with a log message (not a hard error) if required plots or data have not been generated.
 
-You can add this file to your repository as `psd_channel_means_tutorial.md` and link it from your main `README.md`.
