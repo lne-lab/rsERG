@@ -213,13 +213,13 @@ f_c = rac{f_{	ext{min}} + f_{	extmax}}{2}.
 RSEGViewer uses a period consistency threshold that corresponds to allowing roughly ±1 Hz deviation from the center:
 
 \[
-	ext{PerCons}_	ext{thresh} pprox rac{f_c - 1}{f_c}.
+	ext{PerCons}_	ext{thresh} ≈ rac{f_c - 1}{f_c}.
 \]
 
 Examples:
 
-- 8–10 Hz band → \( f_c = 9 \) Hz → \( 	ext{PerCons} = 8/9 pprox 0.889 \)
-- 32–34 Hz band → \( f_c = 33 \) Hz → \( 	ext{PerCons} = 32/33 pprox 0.970 \)
+- 8–10 Hz band → \( f_c = 9 \) Hz → \( 	ext{PerCons} = 8/9 ≈ 0.889 \)
+- 32–34 Hz band → \( f_c = 33 \) Hz → \( 	ext{PerCons} = 32/33 ≈ 0.970 \)
 
 Higher bands therefore impose **stricter** period consistency, reflecting the expectation that true narrowband high-frequency bursts have very similar periods.
 
