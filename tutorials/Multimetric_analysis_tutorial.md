@@ -62,7 +62,7 @@ Make sure:
 
 **Recommended preprocessing:**
 
-- Basic pre-cleaning and band-limiting (e.g. 0.5–45 Hz) before creating the `.fif` file.
+- Basic pre-cleaning and band-limiting (e.g. 0.1–45 Hz) before creating the `.fif` file.
 - Optional prior artifact cleaning is fine; RSEGViewer’s multi-criterion artifact logic is an additional layer.
 
 ### 2.3 Output
