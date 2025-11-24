@@ -220,6 +220,7 @@ Only channels that were **plotted** (and thus had kept indices computed) are inc
 
 - This GUI is meant to work **after** PSD computation (e.g. with `psd_compute.py`).
 - Exclusion logic is **threshold-based** and uses the average PSD as reference; it is not a statistical test.
+- The default settings for maximum X-axis and maximum Y-axis values used in PSD plotting must be manually set or the plot will return an error.
 - If you change exclusion parameters, you must **re-plot** before exporting cleaned PSDs.
 - If no channels are selected or no figures are plotted, exports will be skipped with a message rather than an error.
 - You can version and track your cleaning by:
