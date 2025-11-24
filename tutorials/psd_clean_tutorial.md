@@ -146,7 +146,7 @@ In **“Plotting Options”**, you can control:
   Control title, axis, legend, and tick label sizes.
 
 - **Columns per Row**  
-  Controls how many subplots per row (e.g. 4).
+  Controls how many subplots (channels) to display per row (e.g. 8). 
 
 When ready, click **Plot PSDs**.  
 The GUI will:
